@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="note_nazvanie">
+        <item>Название 1</item>
+        <item>Название 2</item>
+        <item>Название 3</item>
+        <item>Название 4</item>
+        <item>Название 5</item>
+        <item>Название 6</item>
+        <item>Название 7</item>
+    </string-array>
+    <string-array name="note_opisanie">
+        <item>Описание 1</item>
+        <item>Описание 2</item>
+        <item>Описание 3</item>
+        <item>Описание 4</item>
+        <item>Описание 5</item>
+        <item>Описание 6</item>
+        <item>Описание 7</item>
+    </string-array>
+</resources>

@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">lesson6_dz</string>
+    <string name="nazvanie">Название</string>
+    <string name="opisanie">Описание</string>
+    <string name="data">Дата</string>
 </resources>

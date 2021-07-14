@@ -23,13 +23,12 @@ public class NoteFragment extends Fragment {
 //        // Required empty public constructor
 //    }
 //
-//    public static NoteFragment newInstance(String param1, String param2) {
-//        NoteFragment fragment = new NoteFragment();
-//        Bundle args = new Bundle();
-//        args.putString(ARG_PARAM1, param1);
-//        args.putString(ARG_PARAM2, param2);
-//        fragment.setArguments(args);
-//        return fragment;
+   public static NoteFragment newInstance() {
+        NoteFragment fragment = new NoteFragment();
+        Bundle args = new Bundle();
+        fragment.setArguments(args);
+        return fragment;
+    }
 //    }
 //
 //    @Override

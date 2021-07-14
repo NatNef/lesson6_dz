@@ -1,39 +1,28 @@
 package keyone.keytwo.lesson6_dz;
 
-import android.app.Activity;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 
 
 public class FragmentDescription extends Fragment {
 
-        private Activity view;
-        Button button = view.findViewById(R.id.buttonOpenDescriptions);
+
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-                // Inflate the layout for this fragment
-                View view =  inflater.inflate(R.layout.fragment_note, container, false);
-                Button button = view.findViewById(R.id.buttonOpenDescriptions);
-                button.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View v) {
-                                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_note, FragmentDescription.newInstance()).commit();
-                        }
-                });
+                View view =  inflater.inflate(R.layout.fragment_description, container, false);
+
                 return view;
         }
 
-        public static NoteFragment newInstance() {
-                NoteFragment fragment = new NoteFragment();
+        public static FragmentDescription newInstance() {
+                FragmentDescription fragment = new FragmentDescription();
                 Bundle args = new Bundle();
                 fragment.setArguments(args);
                 return fragment;

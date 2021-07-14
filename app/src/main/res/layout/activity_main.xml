@@ -2,16 +2,18 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    >
+
 
     <FrameLayout
-        android:id="@+id/fragment_note"
+        android:id="@+id/fragment_open_note"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
-    <FrameLayout
-        android:id="@+id/fragment_description.xml"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+<!--    <FrameLayout-->
+<!--        android:id="@+id/fragment_description.xml"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
 </LinearLayout>
 

@@ -14,24 +14,22 @@ import android.widget.Button;
 public class NoteFragment extends Fragment {
 
 
-    private Activity view;
-    Button button = view.findViewById(R.id.buttonOpenDescriptions);
-
+// сделать кнопку активной
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_note, container, false);
-        Button button = view.findViewById(R.id.buttonOpenDescriptions);
+        Button button = view.findViewById(R.id.buttonSozdat);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_note, FragmentDescription.newInstance()).commit();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_note, FragmentActivityContainer.newInstance()).commit();
             }
         });
         return view;
     }
 
-
+//отображение
     public static NoteFragment newInstance() {
         NoteFragment fragment = new NoteFragment();
         Bundle args = new Bundle();

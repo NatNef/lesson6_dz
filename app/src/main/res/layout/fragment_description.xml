@@ -12,15 +12,6 @@
         android:text="@string/text_zametki" />
 
 
-    <Button
-        android:id="@+id/buttonSozdat"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Создать"
-        android:textSize="@dimen/text_size"
-        android:layout_weight="1"
-
-        />
 
 
 

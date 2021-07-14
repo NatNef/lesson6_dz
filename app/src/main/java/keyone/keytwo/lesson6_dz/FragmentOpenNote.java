@@ -21,7 +21,7 @@ public class FragmentOpenNote extends Fragment {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_open_note, NoteFragment.newInstance()).commit();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, NoteFragment.newInstance()).commit();
             }
         });
         return view;

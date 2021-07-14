@@ -20,7 +20,7 @@ public class FragmentActivityContainer extends Fragment {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_activity_container, FragmentDescription.newInstance()).commit();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, FragmentDescription.newInstance()).commit();
             }
         });
         return view;

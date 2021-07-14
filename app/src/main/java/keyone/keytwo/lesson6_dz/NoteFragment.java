@@ -23,7 +23,7 @@ public class NoteFragment extends Fragment {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_note, FragmentActivityContainer.newInstance()).commit();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, FragmentActivityContainer.newInstance()).commit();
             }
         });
         return view;

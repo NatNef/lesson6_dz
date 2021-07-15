@@ -10,4 +10,7 @@
     <string name="buttonOpenDescriptions">Открыть блокнот</string>
     <string name="text_zametki">Текст заметки</string>
     <string name="button_opisanie">Описание</string>
+    <string name="topmenu_1_txt">Меню 1</string>
+    <string name="topmenu_3_txt">Меню 3</string>
+    <string name="topmenu_2_txt">Меню 2</string>
 </resources>
